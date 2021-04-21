@@ -1,0 +1,544 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/***********************
+header section css
+***********************/
+header {
+    width: 100%;
+    background: url(../img/headerbanner.png) center top no-repeat;
+    background-size: cover;
+    font-weight: : 600;
+}
+.nav-link{
+	color: white !important;
+	font-family: 'Source Sans Pro', sans-serif;
+   font-size: 16px;
+}
+.nav-link:hover{
+	color: #008ed6 !important;
+	background: url(../img/line.png) center bottom no-repeat;
+	font-family: 600;
+}
+.navbar {
+    padding: 16px 0 !important;
+}
+li.nav-item {
+    margin-left: 16px;
+}
+.bannerText {
+    padding: 140px 0;
+}
+.bannerText h6 {
+    color: #008ed6 !important;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.bannerText h1 {
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 38px;
+    margin-bottom: 24px;
+}.bannerText p {
+    color: #8d8d8d !important;
+    font-size: 18px;
+    margin-bottom: 56px;
+}
+.bannerBtn button {
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #999999;
+    padding: 16px 42px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 22px;
+    background: transparent;
+}
+button.btn1 {
+    background: #008ed6!important;
+    border: 1px solid #008ed6;
+    color: white;
+}
+.btn1:hover {
+    background: orange !important;
+    border: none;
+    transition: 0.3s;
+}
+button.btn2 {
+    border: 1px solid white;
+    color: white;
+}
+.btn2:hover {
+    background: orange !important;
+    border: none;
+    transition: 0.3s;
+}
+.hImg {
+    padding-top: 130px;
+}
+.btn.btn-primary {
+    background: #008ed6 !important;
+    padding: 12px 40px;
+}
+
+.btn.btn-secondary {
+    padding: 12px 40px;
+}
+
+.btn.btn-secondary:hover {
+    background: #008ed6 !important;
+}
+
+/***********************
+fetures section css
+***********************/
+section#feture {
+	width: 100%;
+    background: white;
+    padding: 80px 0;
+    color: #333;
+    border-bottom: 2px solid #ededed;
+}
+.title {
+    text-align: center;
+}
+.ftitle h6 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro';
+    font-weight: 800;
+    color: #008ed6;
+}
+.ftitle h1 {
+    font-size: 36px;
+    font-family: 'Source Sans Pro';
+    color: #1a1a1a;
+}
+.Ffeturelist {
+    padding-top: 60px;
+}
+
+.flist {
+    text-align: center;
+}
+
+.flist i {
+    height: 75px;
+    width: 75px;
+    line-height: 75px;
+    font-size: 32px;
+    color: #008ed6;
+    border-radius: 50%;
+    border: 1px solid #e7e6e6;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+.flist i:hover {
+    background: #008ed6;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.flist h1 {
+    font-family: 'Source Sans Pro';
+    font-size: 24px;
+    color: #1a1a1a;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.flist p {
+    font-family: 'Source Sans Pro';
+    font-size: 18px;
+    padding: 10px;
+    color: #999999;
+    padding-bottom: 20px;
+}
+/***********************
+device section css
+***********************/
+section#device {
+    width: 100%;
+    background: white;
+    padding: 80px 0;
+    color: #333;
+}
+.dleft {
+    text-align: center;
+}
+.dright {
+    text-align: left;
+    padding-top: 50px;
+}
+
+.dtop h6 {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #008ed6;
+    font-weight: 800;
+}
+.dtop h2 {
+    color: #1a1a1a;
+    font-size: 36px;
+    font-weight: 500;
+}
+.dtop p {
+    color: #999999;
+    font-size: 18px;
+}
+.dtop img {
+    font-size: 18px;
+    padding: 30px 0;
+}
+.dlist ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.dlist ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.dlist ul li i {
+    color: #008ed6;
+    margin-right: 16px;
+}
+/***********************
+ about section css
+***********************/
+
+section#about {
+    width: 100%;
+    padding-top: 80px;
+    background: #f2f2f2;
+}
+.aleft {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.aleft h6 {
+    font-family: 'Source Sans Pro';
+    font-size: 14px;
+    color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.aleft h2 {
+    font-family: 'Source Sans Pro';
+    font-size: 36px;
+    color: #1a1a1a;
+    margin-top: 20px;
+}
+.aleft p {
+   font-family: 'Source Sans Pro';
+    font-size: 16px;
+    color: #999999;
+    margin-top: 15px;
+}
+
+/***********************
+ plan section css
+***********************/
+
+section#pPlan {
+    width: 100%;
+    height: auto;
+    padding: 80px 0;
+    background: url(../img/backgroundb.png) center top no-repeat;
+    background-size: cover;
+}
+.p10 {
+    padding-top: 50px;
+}
+.ptitle {
+    text-align: center;
+}
+.ptitle h5 {
+    color: #008ed6;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.ptitle h1 {
+    font-weight: 400;
+    font-size: 36px;
+    color: #ffffff;
+}
+.pContent p {
+    font-size: 23px;
+    color: #ffffff;
+    font-weight: 300;
+}
+.jtext h5 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.jtext h6 {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/***********************
+ like section css
+***********************/
+section#like {
+    background: #15141a;
+    width: 100%;
+    padding: 50px 0;
+    color: white;
+}
+.likeConent p {
+    font-family: 'Source Sans Pro';
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+
+.likeConent p span {
+    color: #828285;
+    font-family: 'Source Sans Pro';
+    font-weight: 100;
+}
+button.likebtn1 {
+  margin-right: 10px;
+  background-color: transparent;
+  border: 1px solid gray;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  text-transform: uppercase;
+  border-radius: 6px;
+}
+button.likebtn1:hover {
+    transition: 0.3s;
+    background: #008ed6;
+    opacity: 1;
+}
+
+button.likebtn2 {
+  background-color: #008ed6;
+  border: 1px solid #008ed6;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  text-transform: uppercase;
+  border-radius: 6px;
+}
+.likebtn2:hover {
+    opacity: 1;
+}
+
+/***********************
+ priching section css
+***********************/
+section#price\$ {
+    width: 100%;
+    padding: 80px 0;
+    text-align: center;
+}
+.qtitle h5 {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #008ed6;
+    font-weight: 700;
+}
+
+.qtitle h1 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #1a1a1a;
+}
+.pTable {
+    border: 1px solid #d8d8d8;
+}
+
+.pCat {
+    padding: 16px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.pCat h2 {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.pPrich {
+    padding: 16px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.pPrich h1 {
+    font-size: 86px;
+    font-weight: bold;
+    position: relative;
+}
+.pPrich h1 ::before {
+    position: absolute;
+    content: '$';
+    top: 25px;
+    left: 25%;
+    font-size: 24px;
+}
+
+.pPrich span {
+    font-size: 30px;
+}
+
+.pPrich p {
+    color: #7d7878;
+    font-style: italic;
+}
+.pDes {
+    padding: 16px;
+}
+
+.pDes p {
+    margin: 0;
+    margin: 24px;
+    font-size: 16px;
+    color: #929292;
+}
+.pDes button {
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 12px 32px;
+    border: none;
+    border: 1px solid #d8d8d8;
+    background: transparent;
+    font-weight: 600;
+    color: #008ed6;
+    margin-bottom: 16px;
+}
+.pTable:hover .pCat {
+    color: #008ed6;
+}
+
+.pTable:hover .pPrich {
+    background: #008ed6;
+}
+
+.pTable:hover .pPrich h1 {
+    color: white;
+}
+
+.pTable:hover .pPrich p {
+    color: white;
+}
+.pTable:hover .pDes button {
+    background: #008ed6;
+    color: white;
+}
+
+/***********************
+contact section css
+***********************/
+section#contact {
+    background: #ededed;
+    width: 100%;
+    padding-top:80px;
+    text-align: center;
+}
+.contitle h5 {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #008ed6;
+    font-weight: 700;
+}
+
+.contitle h1 {
+    font-size: 36px;
+    font-weight: 400;
+    color: #1a1a1a;
+}
+.mIcon i {
+    font-size: 30px;
+    color: #008ed6;
+}
+.context {
+    margin-top: 16px;
+}
+
+.context h6 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #b2b2b2;
+}
+.contactForm {
+    background: black;
+    padding: 57px;
+    width: 70%;
+    margin: auto;
+}
+input.form-control {
+    margin-bottom: 16px !important;
+    background: transparent !important;
+    border: 1px solid #d8d8d8 !important;
+    padding: 16px !important;
+}
+textarea.form-control {
+    background: transparent !important;
+    border: 1px solid #d8d8d8 !important;
+    color: #d8d8d8 !important;
+}
+button.btn.btn-primary.conB {
+    float: right;
+}
+.conbtn {
+    margin-bottom: 26px;
+}
+.contactMap {
+    z-index: 999 !important;
+}
+
+.map {
+    z-index: -9999 !important;
+    margin-top: -80px !important;
+}
+
+/***********************
+footer section css
+***********************/
+footer {
+    width: 100%;
+    background: #15141a;
+    padding: 50px 0px;
+    text-align: center;
+    color: gainsboro;
+}
+
+.footerIcon a i {
+    font-size: 40px;
+    margin-right: 16px;
+    color: #444348;
+}
+
+.fp {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    color: #444348;
+}
+.footerIcon a:hover i {
+    color: #008ed6;
+    transition: 0.3s;
+}
